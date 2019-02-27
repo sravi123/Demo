@@ -25,7 +25,7 @@ public class Testing {
 		d.manage().window().maximize();
 		
 		d.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-	d.findElement(By.id("email")).sendKeys("Tomato");
+	d.findElement(By.id("email")).sendKeys("alloo");
 	d.close();
 
 		
